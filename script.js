@@ -40,7 +40,7 @@ function noteOut()
 setInterval(noteOut,3000);
 
 //Chống chuột phải 
-window.onload = function() {
+/*window.onload = function() {
     document.addEventListener("contextmenu", function(e) {
         e.preventDefault();
     }, false);
@@ -77,7 +77,7 @@ window.onload = function() {
         e.preventDefault();
         return false;
     }
-};
+}; */
 
 //Chống Ctrl + U
 document.onkeydown = function(e) {
